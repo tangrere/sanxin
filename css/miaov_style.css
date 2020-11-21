@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+div#show1 { width: 381px; height: 152px; overflow:hidden;  margin-top:18px;  border: 1px solid #ccc; background:#fff;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */}
+#show1 ul { width: 3300px; height: 152px; }
+#show1  li { width: 58px; height: 152px; float: left; position: relative; overflow:hidden;}
+#show1 .active { width: 267px; }
+#show1 span { width: 57px; height: 152px; border-right: 1px solid #ccc; position: absolute; top: 0; right: 0;cursor: pointer;}
+#show1 img { width: 207px; height: 152px; border-right:1px solid #ccc; }
+#show1 a{ position:absolute; top:75px; left:128px; color:#828282;}
+#show1 a:hover{ color:#004ea3;}
+#show1 .bg0{ background:url(../images/11.jpg) no-repeat;}
+#show1 .bg1{ background:url(../images/12.jpg) no-repeat;}
+#show1 .bg2{ background:url(../images/10.jpg) no-repeat;}
